@@ -1,0 +1,31 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="#EEE"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dado_1"
+        android:id="@+id/primeiroDado"
+        />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dado_1"
+        android:id="@+id/segundoDado"
+        />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ojgar"
+        android:text="Jogar dados"
+        />
+
+</LinearLayout>
